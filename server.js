@@ -13,6 +13,9 @@ var customerInfo=function(req,resp)
 	},
 	{
 		Eid:'3', acctNo:103, Employeename:'xyz', BranchLocation:'london', BusinessShare:'13%'	, employeeType:"Sr"																																 
+	},
+	{
+		Eid:'4', acctNo:104, Employeename:'gaurav', BranchLocation:'usa', BusinessShare:'13%'	, employeeType:"Sr"																																 
 	}
 	];
 	resp.send(dataOfEmployeeAccounts)
